@@ -1,15 +1,12 @@
 # 展示ランチャー
 
 来場者がスライドを見たり、作品(exe)で遊んだりできる展示用ランチャー
-Windows + Node.js で動く
 
-<!-- スクリーンショットを docs/screenshot.png に置いたら、下の行のコメントを外す
 ![画面](docs/screenshot.png)
--->
 
 ## 必要なもの
 
-| もの | 必須? | 説明 |
+| もの | 必須か | 説明 |
 | --- | --- | --- |
 | Windows | 必須 | exe の起動・パワポの変換に使う |
 | [Node.js](https://nodejs.org) 18 以上 | 必須 | サーバーを動かす(追加パッケージは不要) |
@@ -42,7 +39,7 @@ exe・動画・QR コードはリポジトリに含めていない(`.gitignore` 
 ## 試しに動かす(開発中)
 
 ```
-git clone <このリポジトリの URL>
+git clone https://github.com/taiki0709/gakusai-exhibit-launcher
 cd gakusai
 node server.js
 ```
