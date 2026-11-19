@@ -1,0 +1,7 @@
+{
+  "title": "2026年学祭 研究室 展示",
+  "exhibitsDir": "exhibits",
+  "idleSeconds": 90,
+  "maxPlayMinutes": 10,
+  "port": 3000
+}

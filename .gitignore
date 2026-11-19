@@ -1,0 +1,22 @@
+# 自動生成(パワポを変換した画像。消しても再変換される)
+cache/
+
+# 実行ファイル・大きいメディア
+*.exe
+*.mp4
+*.webm
+
+# QRコード(展示資料の Google Drive リンク)
+exhibits/*QR*
+
+# 古いバックアップ
+public/*.before-*.html
+
+# Windows / Office のゴミ
+Thumbs.db
+desktop.ini
+~$*
+*:Zone.Identifier
+
+# Node.js
+node_modules/
